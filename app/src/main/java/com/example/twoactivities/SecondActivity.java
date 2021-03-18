@@ -23,7 +23,7 @@ public class SecondActivity extends AppCompatActivity {
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         TextView textView = findViewById(R.id.text_message);
         textView.setText(message);
-        Log.d(LOG_TAG, "-------");
+        Log.d(LOG_TAG, "---------");
         Log.d(LOG_TAG, "onCreate");
     }
     @Override
